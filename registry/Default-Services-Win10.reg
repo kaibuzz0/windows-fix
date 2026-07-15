@@ -1,0 +1,573 @@
+Windows Registry Editor Version 5.00
+
+; ============================================================================
+; DEFAULT WINDOWS 10 SERVICES
+; Reset services to Windows 10 default startup values
+; This restores services to Microsoft's default configuration
+; ============================================================================
+
+; ActiveX Installer (AxInstSV) - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AxInstSV]
+"Start"=dword:00000003
+
+; Adaptive Brightness Service - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SensrSvc]
+"Start"=dword:00000003
+
+; Application Experience - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AeLookupSvc]
+"Start"=dword:00000003
+
+; Application Identity - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AppIDSvc]
+"Start"=dword:00000003
+
+; Application Information - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Appinfo]
+"Start"=dword:00000003
+
+; Application Layer Gateway - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ALG]
+"Start"=dword:00000003
+
+; Application Management - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AppMgmt]
+"Start"=dword:00000003
+
+; Background Intelligent Transfer - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BITS]
+"Start"=dword:00000003
+
+; Base Filtering Engine - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BFE]
+"Start"=dword:00000002
+
+; BitLocker Drive Encryption - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BDESVC]
+"Start"=dword:00000003
+
+; Block Level Backup Engine - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wbengine]
+"Start"=dword:00000003
+
+; Bluetooth Support - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\bthserv]
+"Start"=dword:00000003
+
+; BranchCache - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PeerDistSvc]
+"Start"=dword:00000003
+
+; Certificate Propagation - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CertPropSvc]
+"Start"=dword:00000003
+
+; CNG Key Isolation - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\KeyIso]
+"Start"=dword:00000003
+
+; COM+ Event System - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EventSystem]
+"Start"=dword:00000002
+
+; COM+ System Application - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\COMSysApp]
+"Start"=dword:00000003
+
+; Computer Browser - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Browser]
+"Start"=dword:00000003
+
+; Credential Manager - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\VaultSvc]
+"Start"=dword:00000003
+
+; Cryptographic Services - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CryptSvc]
+"Start"=dword:00000002
+
+; DCOM Server Process Launcher - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DcomLaunch]
+"Start"=dword:00000002
+
+; Desktop Window Manager Session Manager - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\UxSms]
+"Start"=dword:00000002
+
+; DHCP Client - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dhcp]
+"Start"=dword:00000002
+
+; Diagnostic Policy Service - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DPS]
+"Start"=dword:00000002
+
+; Diagnostic Service Host - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WdiServiceHost]
+"Start"=dword:00000003
+
+; Diagnostic System Host - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WdiSystemHost]
+"Start"=dword:00000003
+
+; Distributed Link Tracking Client - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TrkWks]
+"Start"=dword:00000002
+
+; Distributed Transaction Coordinator - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MSDTC]
+"Start"=dword:00000003
+
+; DNS Client - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache]
+"Start"=dword:00000002
+
+; Encrypting File System (EFS) - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EFS]
+"Start"=dword:00000003
+
+; Extensible Authentication Protocol - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EapHost]
+"Start"=dword:00000003
+
+; Family Safety - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WPCSvc]
+"Start"=dword:00000003
+
+; Function Discovery Provider Host - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\fdPHost]
+"Start"=dword:00000003
+
+; Function Discovery Resource Publication - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\FDResPub]
+"Start"=dword:00000002
+
+; Group Policy Client - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\gpsvc]
+"Start"=dword:00000002
+
+; Health Key and Certificate Management - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\hkmsvc]
+"Start"=dword:00000003
+
+; HomeGroup Listener - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\HomeGroupListener]
+"Start"=dword:00000003
+
+; HomeGroup Provider - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\HomeGroupProvider]
+"Start"=dword:00000003
+
+; Human Interface Device Service - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\hidserv]
+"Start"=dword:00000003
+
+; IKE and AuthIP IPsec Keying Modules - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\IKEEXT]
+"Start"=dword:00000003
+
+; Interactive Services Detection - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\UI0Detect]
+"Start"=dword:00000003
+
+; Internet Connection Sharing (ICS) - Disabled
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess]
+"Start"=dword:00000004
+
+; IP Helper - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\iphlpsvc]
+"Start"=dword:00000002
+
+; IPsec Policy Agent - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PolicyAgent]
+"Start"=dword:00000003
+
+; KtmRm for Distributed Transaction Coordinator - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\KtmRm]
+"Start"=dword:00000003
+
+; Link-Layer Topology Discovery Mapper - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lltdsvc]
+"Start"=dword:00000003
+
+; Microsoft .NET Framework NGEN - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\clr_optimization_v4.0.30319_64]
+"Start"=dword:00000003
+"DelayedAutoStart"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\clr_optimization_v4.0.30319_32]
+"Start"=dword:00000003
+"DelayedAutoStart"=dword:00000001
+
+; Microsoft iSCSI Initiator Service - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MSiSCSI]
+"Start"=dword:00000003
+
+; Microsoft Software Shadow Copy Provider - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\swprv]
+"Start"=dword:00000003
+
+; Multimedia Class Scheduler - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MMCSS]
+"Start"=dword:00000002
+
+; Netlogon - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Netlogon]
+"Start"=dword:00000003
+
+; Network Access Protection Agent - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\napagent]
+"Start"=dword:00000003
+
+; Network Connection Broker - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NcbService]
+"Start"=dword:00000003
+
+; Network Connections - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Netman]
+"Start"=dword:00000003
+
+; Network Connectivity Assistant - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NcaSvc]
+"Start"=dword:00000003
+
+; Network List Service - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\netprofm]
+"Start"=dword:00000003
+
+; Network Location Awareness - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NlaSvc]
+"Start"=dword:00000002
+
+; Network Setup Service - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NetSetupSvc]
+"Start"=dword:00000003
+
+; Network Store Interface Service - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nsi]
+"Start"=dword:00000002
+
+; Offline Files - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CscService]
+"Start"=dword:00000003
+
+; Peer Name Resolution Protocol - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PNRPsvc]
+"Start"=dword:00000003
+
+; Peer Networking Grouping - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\p2psvc]
+"Start"=dword:00000003
+
+; Peer Networking Identity Manager - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\p2pimsvc]
+"Start"=dword:00000003
+
+; Performance Logs & Alerts - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\pla]
+"Start"=dword:00000003
+
+; Plug and Play - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PlugPlay]
+"Start"=dword:00000002
+
+; Portable Device Enumerator Service - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WPDBusEnum]
+"Start"=dword:00000003
+
+; Power - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Power]
+"Start"=dword:00000002
+
+; Print Spooler - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Spooler]
+"Start"=dword:00000002
+
+; Program Compatibility Assistant Service - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PcaSvc]
+"Start"=dword:00000003
+
+; Quality Windows Audio Video Experience - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\QWAVE]
+"Start"=dword:00000003
+
+; Remote Access Auto Connection Manager - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RasAuto]
+"Start"=dword:00000003
+
+; Remote Access Connection Manager - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RasMan]
+"Start"=dword:00000003
+
+; Remote Desktop Services - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TermService]
+"Start"=dword:00000003
+
+; Remote Desktop Services UserMode Port Redirector - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\UmRdpService]
+"Start"=dword:00000003
+
+; Remote Procedure Call (RPC) - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RpcSs]
+"Start"=dword:00000002
+
+; RPC Endpoint Mapper - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RpcEptMapper]
+"Start"=dword:00000002
+
+; Remote Procedure Call (RPC) Locator - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RpcLocator]
+"Start"=dword:00000003
+
+; Remote Registry - Disabled
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RemoteRegistry]
+"Start"=dword:00000004
+
+; Resultant Set of Policy Provider - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RSoPProv]
+"Start"=dword:00000003
+
+; Routing and Remote Access - Disabled
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RemoteAccess]
+"Start"=dword:00000004
+
+; Secondary Logon - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\seclogon]
+"Start"=dword:00000003
+
+; Secure Socket Tunneling Protocol Service - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SstpSvc]
+"Start"=dword:00000003
+
+; Security Accounts Manager - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SamSs]
+"Start"=dword:00000002
+
+; Server - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer]
+"Start"=dword:00000002
+
+; Shell Hardware Detection - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ShellHWDetection]
+"Start"=dword:00000002
+
+; Smart Card - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SCardSvr]
+"Start"=dword:00000003
+
+; Smart Card Device Enumeration Service - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ScDeviceEnum]
+"Start"=dword:00000003
+
+; Smart Card Removal Policy - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SCPolicySvc]
+"Start"=dword:00000003
+
+; SNMP Trap - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SNMPTRAP]
+"Start"=dword:00000003
+
+; Software Protection - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\sppsvc]
+"Start"=dword:00000002
+"DelayedAutoStart"=dword:00000001
+
+; Software Protection Platform - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\sppuinotify]
+"Start"=dword:00000003
+
+; SSDP Discovery - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SSDPSRV]
+"Start"=dword:00000003
+
+; Superfetch/SysMain - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SysMain]
+"Start"=dword:00000002
+
+; System Event Notification Service - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SENS]
+"Start"=dword:00000002
+
+; Tablet Input Service - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TabletInputService]
+"Start"=dword:00000003
+
+; Task Scheduler - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Schedule]
+"Start"=dword:00000002
+
+; TCP/IP NetBIOS Helper - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lmhosts]
+"Start"=dword:00000002
+
+; Telephony - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TapiSrv]
+"Start"=dword:00000003
+
+; Themes - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Themes]
+"Start"=dword:00000002
+
+; Thread Ordering Server - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\THREADORDER]
+"Start"=dword:00000003
+
+; TPM Base Services - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TBS]
+"Start"=dword:00000003
+
+; UPnP Device Host - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\upnphost]
+"Start"=dword:00000003
+
+; User Profile Service - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ProfSvc]
+"Start"=dword:00000002
+
+; Virtual Disk - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\vds]
+"Start"=dword:00000003
+
+; Volume Shadow Copy - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\VSS]
+"Start"=dword:00000003
+
+; WebClient - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WebClient]
+"Start"=dword:00000003
+
+; Windows Audio - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Audiosrv]
+"Start"=dword:00000002
+
+; Windows Audio Endpoint Builder - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AudioEndpointBuilder]
+"Start"=dword:00000002
+
+; Windows Backup - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SDRSVC]
+"Start"=dword:00000003
+
+; Windows Biometric Service - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WbioSrvc]
+"Start"=dword:00000003
+
+; Windows Camera Frame Server - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\FrameServer]
+"Start"=dword:00000003
+
+; Windows Connect Now - Config Registrar - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wcncsvc]
+"Start"=dword:00000003
+
+; Windows Defender - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend]
+"Start"=dword:00000002
+"DelayedAutoStart"=dword:00000001
+
+; Windows Defender Advanced Threat Protection - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Sense]
+"Start"=dword:00000003
+
+; Windows Defender Network Inspection Service - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WdNisSvc]
+"Start"=dword:00000003
+
+; Windows Driver Foundation - User-mode Driver Framework - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wudfsvc]
+"Start"=dword:00000003
+
+; Windows Error Reporting Service - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WerSvc]
+"Start"=dword:00000003
+
+; Windows Event Collector - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Wecsvc]
+"Start"=dword:00000003
+
+; Windows Event Log - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog]
+"Start"=dword:00000002
+
+; Windows Firewall - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MpsSvc]
+"Start"=dword:00000002
+
+; Windows Font Cache Service - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\FontCache]
+"Start"=dword:00000002
+
+; Windows Image Acquisition (WIA) - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\StiSvc]
+"Start"=dword:00000003
+
+; Windows Installer - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\msiserver]
+"Start"=dword:00000003
+
+; Windows Management Instrumentation - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Winmgmt]
+"Start"=dword:00000002
+
+; Windows Media Player Network Sharing Service - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WMPNetworkSvc]
+"Start"=dword:00000003
+
+; Windows Modules Installer - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TrustedInstaller]
+"Start"=dword:00000003
+
+; Windows Presentation Foundation Font Cache - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\FontCache3.0.0.0]
+"Start"=dword:00000003
+
+; Windows Process Activation Service - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WAS]
+"Start"=dword:00000003
+
+; Windows Remote Management (WS-Management) - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinRM]
+"Start"=dword:00000003
+
+; Windows Search - Automatic (Delayed Start)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WSearch]
+"Start"=dword:00000002
+"DelayedAutoStart"=dword:00000001
+
+; Windows Security Center - Automatic (Delayed Start)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wscsvc]
+"Start"=dword:00000002
+"DelayedAutoStart"=dword:00000001
+
+; Windows Time - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time]
+"Start"=dword:00000003
+
+; Windows Update - Automatic (Delayed Start)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wuauserv]
+"Start"=dword:00000002
+"DelayedAutoStart"=dword:00000001
+
+; WinHTTP Web Proxy Auto-Discovery Service - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinHttpAutoProxySvc]
+"Start"=dword:00000003
+
+; Wired AutoConfig - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\dot3svc]
+"Start"=dword:00000003
+
+; WLAN AutoConfig - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Wlansvc]
+"Start"=dword:00000003
+
+; WMI Performance Adapter - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wmiApSrv]
+"Start"=dword:00000003
+
+; Workstation - Automatic
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanWorkstation]
+"Start"=dword:00000002
+
+; WWAN AutoConfig - Manual
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WwanSvc]
+"Start"=dword:00000003

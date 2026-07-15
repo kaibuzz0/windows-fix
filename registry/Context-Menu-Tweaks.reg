@@ -1,0 +1,62 @@
+Windows Registry Editor Version 5.00
+
+; ============================================================================
+; CONTEXT MENU TWEAKS
+; Add useful "Copy To" and "Move To" options to right-click menu
+; ============================================================================
+
+; Copy To Folder
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\Copy To]
+@="{C2FBB630-2971-11D1-A18C-00C04FD75D13}"
+
+; Move To Folder
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\Move To]
+@="{C2FBB631-2971-11D1-A18C-00C04FD75D13}"
+
+; Open Command Prompt Here (as Administrator)
+[HKEY_CLASSES_ROOT\Directory\shell\OpenCmdAsAdmin]
+@="Open Command Prompt Here as Admin"
+"HasLUAShield"=""
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenCmdAsAdmin\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+; Open PowerShell Here (as Administrator)
+[HKEY_CLASSES_ROOT\Directory\shell\OpenPowerShellAsAdmin]
+@="Open PowerShell Here as Admin"
+"HasLUAShield"=""
+"Icon"="powershell.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenPowerShellAsAdmin\command]
+@="powershell.exe -noexit -command Set-Location -literalPath '%V'"
+
+; Take Ownership
+[HKEY_CLASSES_ROOT\*\shell\runas]
+@="Take Ownership"
+"NoWorkingDirectory"=""
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\*\shell\runas\command]
+@="cmd.exe /c takeown /f \"%1\" && icacls \"%1\" /grant %username%:F"
+
+[HKEY_CLASSES_ROOT\Directory\shell\runas]
+@="Take Ownership"
+"NoWorkingDirectory"=""
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\shell\runas\command]
+@="cmd.exe /c takeown /f \"%1\" /r /d y && icacls \"%1\" /grant %username%:F /t"
+
+; Copy as Path (with quotes)
+[HKEY_CLASSES_ROOT\*\shell\CopyAsPath]
+@="Copy as Path"
+
+[HKEY_CLASSES_ROOT\*\shell\CopyAsPath\command]
+@="cmd.exe /c echo \"%1\"|clip"
+
+[HKEY_CLASSES_ROOT\Directory\shell\CopyAsPath]
+@="Copy as Path"
+
+[HKEY_CLASSES_ROOT\Directory\shell\CopyAsPath\command]
+@="cmd.exe /c echo \"%1\"|clip"

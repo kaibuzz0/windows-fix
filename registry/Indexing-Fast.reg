@@ -1,0 +1,39 @@
+Windows Registry Editor Version 5.00
+
+; ============================================================================
+; FAST INDEXING TWEAKS
+; Speeds up Windows Search indexing
+; ============================================================================
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Search\Gathering Manager]
+"DisableBackoff"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Search\Gathering Manager\ApplicationFrames]
+"DefaultFrameSettings"="{DefaultFrameSetting:0,IndexIfQuiet:1,KeepAlive:1}"
+
+; Increase indexing speed
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Search\Gathering Manager]
+"MaxOldDocuments"=dword:00000020
+"MaxUniqueContentFilterErrors"=dword:00000064
+"MaxWordListSize"=dword:00000040
+"TargetCatalogsInclusion":"SystemIndex"
+"ThreadPriority"=dword:00000001
+
+; Optimize indexer performance
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Search\Setup\ContentIndexCommon]
+"InitialIndex"="0"
+"FilterDirectories"="0"
+"FilterFilesWithUnknownExtensions"="0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Search\Setup\Filters\ExtensionList]
+@=".asp;.aspx;.bat;.c;.cfg;.cls;.cmd;.cpp;.csv;.cxx;.def;.dic;.doc;.docm;.docx;.dot;.dotm;.dotx;.h;.hhc;.hpp;.htm;.html;.hxx;.ini;.java;.json;.ldb;.log;.lst;.m3u;.md;.mdb;.msg;.odc;.ods;.odt;.one;.pdf;.php;.pl;.pot;.potm;.potx;.ppt;.ppam;.ppsm;.pptm;.pptx;.pst;.pub;.py;.rb;.reg;.rtf;.sldm;.sldx;.slk;.txt;.url;.vb;.vbs;.vcf;.vcs;.vdx;.vsd;.vss;.vst;.vsx;.vtx;.wks;.wmp;.wmv;.wma;.wpd;.wps;.xla;.xlam;.xlc;.xld;.xlk;.xll;.xlm;.xls;.xlsb;.xlsm;.xlsx;.xlt;.xltm;.xltx;.xlw;.xml;.xps;.xsl;.zip"
+
+; Disable indexing of encrypted files for performance
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Search\Indexing Options]
+"EnableIndexingEncryptedStoresOrItems"=dword:00000000
+
+; Exclude system folders from indexing
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Search\CrawlScopeManager\Windows\SystemIndex\DefaultRules\12\{D6277990-4C6A-11CF-8D87-00AA0060F5BF}]
+"Include"=dword:00000000
+"DefaultDisposition"=dword:00000001
+"OverrideChildren"=dword:00000001
