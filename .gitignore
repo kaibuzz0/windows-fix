@@ -1,0 +1,49 @@
+# Windows Fix Suite - Git Ignore
+
+# Executables and Installers (Download instead)
+*.exe
+*.msi
+*.msu
+*.msp
+*.zip
+*.7z
+*.rar
+*.dmg
+*.pkg
+
+# Allowed: Documentation zips
+!docs/**/*.zip
+
+# Windows System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# PowerShell
+*.ps1.log
+*.ps1xml
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# Logs
+*.log
+logs/
+
+# Temp files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Output
+reports/
+output/
+build/
+dist/
