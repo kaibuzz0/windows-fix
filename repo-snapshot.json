@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-16T23:57:51Z",
+  "source_commit": "0c7514df1f317249a6ebd8f4a75a8f4efd7e1770",
+  "repo": {
+    "id": "windows-fix",
+    "full_name": "kaibuzz0/windows-fix",
+    "url": "https://github.com/kaibuzz0/windows-fix",
+    "default_branch": "main"
+  },
+  "stats": {
+    "tracked_files": 51,
+    "python_files": 0,
+    "javascript_typescript_files": 0,
+    "workflow_files": 1,
+    "test_files": 0
+  },
+  "tools": [],
+  "toolsets": [],
+  "cases": [],
+  "opportunities": [],
+  "intelligence": [],
+  "sources": [],
+  "prompts": [],
+  "evidence": [],
+  "agent_ops": {},
+  "activity": [
+    {
+      "id": "0c7514df1f317249a6ebd8f4a75a8f4efd7e1770",
+      "type": "commit",
+      "title": "Connect repository to GitHub Command Site",
+      "timestamp": "2026-08-16T18:57:38-05:00",
+      "url": "https://github.com/kaibuzz0/windows-fix/commit/0c7514df1f317249a6ebd8f4a75a8f4efd7e1770"
+    },
+    {
+      "id": "13803269ba448bdd220699da165d1d22f45b3504",
+      "type": "commit",
+      "title": "v3.0: Security overhaul with safety features",
+      "timestamp": "2026-07-23T19:25:55-05:00",
+      "url": "https://github.com/kaibuzz0/windows-fix/commit/13803269ba448bdd220699da165d1d22f45b3504"
+    },
+    {
+      "id": "895a10cfab9d2e786bf8b8a28daed810711cc418",
+      "type": "commit",
+      "title": "Complete v3.0 overhaul - Ultimate Windows Debloating System",
+      "timestamp": "2026-07-17T04:24:50Z",
+      "url": "https://github.com/kaibuzz0/windows-fix/commit/895a10cfab9d2e786bf8b8a28daed810711cc418"
+    },
+    {
+      "id": "cbac1bd000dc4ccb6ca01d8c1d4799bda38cb422",
+      "type": "commit",
+      "title": "v2.0: Complete Windows Repair Suite reorganization",
+      "timestamp": "2026-07-15T11:52:49Z",
+      "url": "https://github.com/kaibuzz0/windows-fix/commit/cbac1bd000dc4ccb6ca01d8c1d4799bda38cb422"
+    },
+    {
+      "id": "3bf17ce2d68de7507f2299fdf04e6bdc0e681e84",
+      "type": "commit",
+      "title": "Delete wisecare keys.rtf",
+      "timestamp": "2025-11-01T15:10:10-05:00",
+      "url": "https://github.com/kaibuzz0/windows-fix/commit/3bf17ce2d68de7507f2299fdf04e6bdc0e681e84"
+    },
+    {
+      "id": "c1f845b634f352cbc07e2e23f3172e543dc9aa6f",
+      "type": "commit",
+      "title": "Add files via upload",
+      "timestamp": "2025-11-01T15:06:46-05:00",
+      "url": "https://github.com/kaibuzz0/windows-fix/commit/c1f845b634f352cbc07e2e23f3172e543dc9aa6f"
+    },
+    {
+      "id": "83ae5024eadc0c4d6d085f34afb45f136ce772f9",
+      "type": "commit",
+      "title": "Add files via upload",
+      "timestamp": "2025-11-01T15:05:28-05:00",
+      "url": "https://github.com/kaibuzz0/windows-fix/commit/83ae5024eadc0c4d6d085f34afb45f136ce772f9"
+    },
+    {
+      "id": "314efcdf077d6bf90a14a2776cc2caa5d1a2b96f",
+      "type": "commit",
+      "title": "Add files via upload",
+      "timestamp": "2025-11-01T15:03:21-05:00",
+      "url": "https://github.com/kaibuzz0/windows-fix/commit/314efcdf077d6bf90a14a2776cc2caa5d1a2b96f"
+    }
+  ],
+  "links": [
+    {
+      "id": "github",
+      "name": "GitHub repository",
+      "url": "https://github.com/kaibuzz0/windows-fix"
+    },
+    {
+      "id": "actions",
+      "name": "GitHub Actions",
+      "url": "https://github.com/kaibuzz0/windows-fix/actions"
+    },
+    {
+      "id": "issues",
+      "name": "Issues",
+      "url": "https://github.com/kaibuzz0/windows-fix/issues"
+    }
+  ]
+}
